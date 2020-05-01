@@ -1,4 +1,7 @@
 # LightOn5x5  
+
+![image](https://github.com/dbgjkt/LightOn5x5/blob/master/img/LO5x5_demo.png)
+
 自學React的小作品，一個 5x5 點燈的小遊戲。  
 初期使用codepen.io開發，後移至codesandbox.io。  
 
