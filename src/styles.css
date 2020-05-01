@@ -1,0 +1,112 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+body {
+  font: 14px "Century Gothic", Futura, sans-serif;
+  margin: 20px;
+}
+
+ol,
+ul {
+  padding-left: 30px;
+}
+
+.board-row:before {
+  content: "";
+  display: table;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  margin-bottom: 10px;
+}
+
+.square {
+  background: #fff;
+  border: 1px solid #999;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 30px;
+  width: 30px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  float: left;
+}
+
+.square:focus {
+  outline: none;
+}
+
+.square:hover {
+  background-color: #edf393;
+}
+
+.square-on {
+  background: #4df13769;
+  border: 1px solid #999;
+  font-size: 20px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 30px;
+  width: 30px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
+  float: left;
+}
+
+.square-on:focus {
+  outline: none;
+}
+
+.square-on:hover {
+  background-color: #edf393;
+}
+
+.kbd-navigation .square:focus {
+  background: #ddd;
+}
+
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.newGameField {
+  padding-top: 15px;
+}
+
+.numberBox {
+  width: 3em;
+}
+
+.numberBoxPM {
+  display: inline;
+}
+
+.solutionTable {
+  border: 2px solid blue;
+}
+
+.solutionTable td {
+  font: 20px bold;
+  height: 24px;
+  width: 24px;
+  border: 1px solid blue;
+  text-align: center;
+}
